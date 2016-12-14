@@ -1,0 +1,72 @@
+/* Colour Scheme: Monochormatic :3
+#E1D5C3
+#120100
+#1D71E1
+#6ABBE1
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+html {
+	box-sizing: border-box;
+	background-color: #E1D5C3;
+}
+
+body,
+* {
+	font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+.wrapper {
+	background-color: #E1D5C3;
+}
+
+h1,
+h2,
+h3,
+h5 {
+	font-family: 'Roboto Slab', 'Times New Roman', 'Times', serif;
+    text-shadow: 1px 1px 2px black;
+}
+h4{
+    text-align: center;
+    font-family: 'Roboto Slab', 'Times New Roman', 'Times', serif;
+    text-shadow: 1px 1px 2px black;
+}
+.card {
+    border: 1px solid #120100;
+}
+
+.navbar {
+    margin-bottom: 15px;
+	background-color: #E1D5C3;
+}
+
+
+a:hover {
+	background-color: #1D71E1;
+}
+
+div.jumbotron {
+    margin-top: 5px;
+	background-color: #E1704F;
+	color: black;
+    text-align: center;
+}
+
+.btn {
+	margin-bottom: 12px;
+}
+
+.nav-item{
+    color: black;
+    text-shadow: 0.5px 0px 0.5px black;
+    border: 1px solid #120100;
+    border-radius: 10%;
+        
+    }
+.col-md-5 li:hover{
+    color: #6ABBE1;
+    
+}
+
+
